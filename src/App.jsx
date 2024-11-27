@@ -14,7 +14,7 @@ function App() {
             <div className="sidebarWrapper w-[15%]">
               <Sidebar />
             </div>
-            <div className="content_Right w-[85%]">
+            <div className="content_Right w-[85%] px-3">
               <Routes>
                 <Route path="/" exact={true} element={<Dashboard />} />
               </Routes>

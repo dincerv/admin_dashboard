@@ -12,3 +12,20 @@ body {
   height: 100vh;
   background: #fff;
 }
+.main .sidebarWrapper .sidebar .sidebarTabs button {
+  justify-content: flex-center !important;
+  color: black;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 10px !important;
+}
+.main .sidebarWrapper .sidebar .sidebarTabs button svg {
+  font-size: 20px;
+}
+.main .sidebarWrapper .sidebar .sidebarTabs button .arrow svg {
+  font-size: 12px;
+}
+.main .sidebarWrapper .sidebar .sidebarTabs button:hover {
+  background: #f1f1f1 !important;
+}
